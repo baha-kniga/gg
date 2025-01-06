@@ -1,0 +1,46 @@
+#game{
+    height: 100%;
+    width: 90%;
+    position: absolute;
+    top: 250px;
+    left: 102%;
+}
+#game-information1{
+    overflow: hidden;
+    max-height: 100px;
+    background-color: rgb(253, 183, 79);
+    background-attachment: local;
+}
+#game-container{
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    border: solid 5px white;
+    position: relative;
+}
+#controls{
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+}
+#space{
+    display: inline-block;
+    width: 58%;
+}
+.game-buttons1{
+    width: 10%;
+    height: 100%;
+}
+#gameButton{
+    display: flex;
+    justify-content: center;
+}
+a{
+    background-color: red;
+    border-radius: 20px;
+    color: black;
+    font-size: 300%;
+    text-decoration: none;
+    padding: 10px;
+}

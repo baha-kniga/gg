@@ -1,0 +1,117 @@
+@media only screen and (max-width: 700px) {
+    .header-buttons{
+        font-size: 100%;
+    }
+}
+@media only screen and (max-width: 800px){
+    .div-section{
+        flex-wrap: wrap;
+    }
+    #game-information1{
+        font-size: 100%;
+    }
+    #game1{
+        padding: 25px;
+    }
+}
+@media only screen and (max-width: 896px){
+    #game-information1{
+        overflow-y: scroll;
+    }
+}
+@keyframes mainToGame {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100vw);
+    }
+}
+@keyframes mainToStories {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-200vw);
+    }
+}
+@keyframes mainToPoetry {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-300vw);
+    }
+}
+@keyframes gameToMain {
+    0%{
+        transform: translateX(-100vw);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes gameToStories {
+    0%{
+        transform: translateX(-100vw);
+    }
+    100%{
+        transform: translateX(-200vw);
+    }
+}
+@keyframes gameToPoetry {
+    0%{
+        transform: translateX(-100vw);
+    }
+    100%{
+        transform: translateX(-300vw);
+    }
+}
+@keyframes storiesToMain {
+    0%{
+        transform: translateX(-200vw);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes storiesToGame {
+    0%{
+        transform: translateX(-200vw);
+    }
+    100%{
+        transform: translateX(-100vw);
+    }
+}
+@keyframes storiesToPoetry {
+    0%{
+        transform: translateX(-200vw);
+    }
+    100%{
+        transform: translateX(-300vw);
+    }
+}
+@keyframes poetryToMain {
+    0%{
+        transform: translateX(-300vw);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes poetryToGame {
+    0%{
+        transform: translateX(-300vw);
+    }
+    100%{
+        transform: translateX(-100vw);
+    }
+}
+@keyframes poetryToStories {
+    0%{
+        transform: translateX(-300vw);
+    }
+    100%{
+        transform: translateX(-200vw);
+    }
+}
